@@ -19,10 +19,6 @@ export class ServiceImplEntity implements IServiceImpl{
         this.attr = attr;
     }
 
-/**
- * 
- * @returns 
- */
 
     public isValid(): boolean {
         try {

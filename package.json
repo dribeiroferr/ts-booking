@@ -1,8 +1,8 @@
 {
-  "name": "ts-booking",
+  "name": "ts-ddd-tdd-template",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/dribeiroferr/ts-booking.git",
+  "repository": "https://github.com/dribeiroferr/ts-ddd-tdd-template",
   "author": "dribeiroferr <dribeiroferr.ito@gmail.com>",
   "license": "MIT",
   "devDependencies": {

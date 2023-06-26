@@ -9,17 +9,16 @@ import { IServiceImpl } from "./interfaces";
  * 
  */
 
-export class ServiceImplEntity implements IServiceImpl{
+export class ServiceImplEntity{
 
-    readonly name?: string; 
-    readonly attr?: object;
+    name: string; 
+    attr: object;
 
-    constructor({name, attr}: IServiceImpl){
+    constructor(name: string, attr: object){
         this.name = name;
         this.attr = attr;
     }
-
-
+    
     public isValid(): boolean {
         try {
             if(!this.name){
@@ -40,5 +39,7 @@ export class ServiceImplEntity implements IServiceImpl{
         }
 
     }
+
+    
 
 }

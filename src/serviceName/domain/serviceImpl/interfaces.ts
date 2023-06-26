@@ -1,5 +1,5 @@
 export interface IServiceImpl { 
-    name?: string,
-    attr?: object
+    name: string,
+    attr: object
      
 }
